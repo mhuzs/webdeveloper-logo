@@ -1,0 +1,3259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:tahoma;
+}
+html{
+    font-size: 62.5%;
+}
+#logo{
+    width:3rem ;
+    margin-left:3.5rem ;
+    margin-right: 1rem;
+}
+.nav-bar-m{
+    margin-top: -1.5rem;
+}
+.navbar-brand{
+    font-size: 3.2rem;
+    margin-top:.5rem ;
+    margin-bottom:.5rem ;
+    margin-right:16rem ;
+}
+.nav-link{
+    font-size: 2rem;
+    margin-top:.5rem ;
+    margin-bottom:.5rem ;
+    margin-left: 5rem;
+    text-decoration: none;
+}
+#navbarSupportedContent  a:hover{
+    text-shadow: .2rem .2rem .7rem grey;
+    transition: 500ms;
+    color: turquoise;
+}
+.head h1{
+    margin-top: -25rem;
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+    outline: 1px solid white;
+}
+#well{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(pictures/bac.png);
+    -webkit-background-clip: text;
+    background-position:  0px 0;
+    animation: front 100s linear infinite;
+}
+@keyframes  front {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.hero {
+    width: 100%;
+    height: 60vh;  
+    background-image: url(pictures/hero.jpg);
+    padding-top: 60rem;
+    background-size: 100%;
+}
+.type{
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.about-me{
+    margin-top: 9rem;
+}
+.top-head h3{
+    font-size: 3rem;
+    text-align: center;
+}
+.line{
+    border: .3rem solid turquoise;
+    opacity: 100%;
+    margin-left: 48rem;
+    margin-right: 48rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+.m-box-img{
+    width:25rem;
+    border-radius: 30rem;
+    border: 1px solid turquoise;
+    overflow: hidden;
+}
+.left img{
+    width:25rem;
+}
+.box{
+   display: block;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   background-color: rgb(226, 228, 230);
+   margin-left: 3rem;
+   margin-right : 3rem;
+   box-shadow: 1rem 1rem 1rem grey;
+}
+.prof{
+    display: block;
+    float: right;
+    width: 2.5;
+}
+.prof ul{
+    margin-top: 6rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+.prof li{
+    margin-top: 1.5rem;
+}
+.left{
+    display: flex;
+}
+.right{
+    width:30rem;
+    display: block;
+    float: right;
+    margin-top: -23rem;
+}
+.right p{
+    font-size: 1.7rem;
+    margin-top: 5rem;
+}
+.skills{
+    width: 45rem;
+    margin-top: 4rem;
+}
+.skills p{
+    font-size: 1.5rem;
+    margin-bottom: -.3rem;
+}   
+.progress-bar{
+background-color:turquoise;
+}
+.progress{
+    background-color: rgb(168, 167, 167);
+}
+.services{
+    margin-top: 8em;
+}
+.bi{
+    font-size: 5rem;
+    margin-left:8.5rem ;
+    border: .6rem solid turquoise;
+    border-radius: 7rem;
+    padding: 1.5rem;
+    background-color: rgb(223, 219, 219); 
+}
+.ser-card .top :hover{
+   color: turquoise;
+   border: .6rem solid  rgb(223, 219, 219);
+   background-color: rgb(55, 51, 51);
+}
+.title{
+    font-size:2rem ;
+    text-align: center;
+    margin-top: 3rem;
+}
+.text{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left:.5rem;
+    margin-right:.5rem;
+}
+.ser-card{
+    width: 24rem;
+    display: block;
+    float: left;
+    margin-left:4.1rem ;
+    margin-right:4.1rem ;
+    box-shadow: 1rem 1rem 1rem grey;
+    background-color: rgba(224, 224, 224, 0.386);
+    padding-top: 2.5rem;
+}
+.work{
+    margin-top: 40rem;
+}
+.w-back-img{
+    background-image: url(pictures/w-back.jpg);
+    width: 100%;
+    height: 43rem;
+    background-size: 100%;
+}
+.master{
+    background-color: rgba(0, 0, 0, 0.652);
+    width: 100%;
+    height: 43rem;
+    padding-top: 10rem;
+    padding-bottom:10rem;
+    padding-left: -3rem;
+    padding-right: 8rem; 
+}
+.work .bi{
+    font-size: 10rem;
+    margin-left:10.5rem ;
+    border: .6rem solid rgb(255, 255, 255);
+    border-radius: 9rem;
+    padding: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.622);
+    color: turquoise ;
+}
+.w-card .top :hover{
+    color: rgb(6, 6, 6);
+    border: .6rem solid  turquoise;
+    background-color: rgb(255, 255, 255);
+ }
+.w-card{
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.w-title{
+    font-size: 3rem;
+    color: white;
+    margin-top: 5rem;
+    padding-left: 11rem;
+}
+.w-text{
+    font-size: 2rem;
+    color: white;
+    padding-left: 11rem;
+}
+.contact{
+    margin-top: 10rem;
+}
+.c-box{
+    margin-top: 8rem;
+    background-color: rgba(0, 0, 0, 0.916);
+    width: 100%;
+    height: 30rem;
+}
+.c-card{
+    width:25rem;
+    float: left;
+    display: block;
+    color: white;
+    padding-top: 6rem;
+    margin-left:6rem ;
+    margin-right: 1rem;  
+}
+.c-card p{
+    font-size: 1.5rem;
+}
+.c-card-t .bi{
+    font-size: 2rem;
+    margin-left:4rem ;
+    border:none;
+    background-color: rgba(0, 0, 0, 0);
+    color: turquoise ;
+    padding: -2rem;
+    margin-top: -2rem;
+}
+.c-card-t{
+    margin-top: 3rem;
+}
+.c-card-t a{
+   text-decoration: none;
+   color: white;
+   display: flex;
+}
+.c-card-t a :hover{
+    color: aliceblue;
+}
+.c-card-so .bi{
+    font-size: 2rem;
+    margin-left:.5rem ;
+    border: .3rem solid rgb(255, 255, 255);
+    border-radius: 9rem;
+    background-color: rgba(0, 0, 0, 0.622);
+    color: turquoise ;
+}
+.c-card-so .icon{
+    display: inline;
+}
+.c-card-so .icon :hover{
+     color: white;
+     border: .3rem solid turquoise;
+     text-shadow: .1rem .1rem .5rem turquoise;
+}
+.c-card-so h3{
+    color: white;
+    padding-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+ .copyright .c-icon .bi{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1rem;
+    border: 0ch;
+}
+.copyright{
+    color: turquoise;
+    display: inline-flex;
+    margin-top: 8rem;
+    margin-left: 35rem;
+}
+.btn .bi {
+    font-size: 4.5rem;
+    padding: 0rem;
+    background-color: rgba(255, 140, 0, 0);
+    border: 0ch;
+    position: fixed;
+    margin-top: 55.5rem;
+    margin-left: 90rem;
+    color: turquoise;
+}
+.bi-arrow-up-circle-fill  :hover {
+    color: black;
+}
+
+/*================================================== media query========================================================*/
+/* ==================================================Responsiv web======================================================*/
+
+@media (min-width:355px) and (max-width: 383px){
+     html{
+        font-size: 25%;
+     }
+    #logo{
+    margin-right:-48rem;
+    }
+    .navbar-toggler{
+        margin-right: 2rem;
+    }
+    .line{
+        margin-left: 42rem;
+        margin-right: 42rem;
+    }
+    .prof ul{
+        padding-left: 0rem;
+    }
+    .right{
+    margin-right: -2rem;
+    }
+    .ser-card{
+        width: 25rem;
+        margin-left:3rem ;
+        margin-right:1rem ;
+        padding: .1rem;
+        padding-top: 2rem;
+    }
+    .work .bi{
+        font-size: 7rem;
+    }
+    .master{
+        padding-top: 15rem;
+    }
+    .w-card{
+        margin-left: .5rem;
+    }
+    .c-card{
+        margin-left:5rem ;
+        margin-right: 5rem;
+        width: 19rem;
+    }
+    .copyright{
+        margin-top: 2rem;
+        margin-left: 55rem;
+    }
+    .nav-link{
+        font-size: 2rem;
+        margin-top:.5rem ;
+        margin-bottom:.5rem ;
+        margin-left: 45rem;
+    }
+
+    .btn .bi {
+        margin-top: 145.5rem;
+        margin-left: 85rem;
+    }
+
+    .hero {
+        width: 100%;
+        height: 10vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 100%;
+        overflow: hidden;
+    }
+}
+@media (min-width:384px) and (max-width: 389px) {
+    html{
+        font-size: 25%;
+     }
+    #logo{
+    margin-right:-48rem;
+    }
+    .navbar-toggler{
+        margin-right: 2rem;
+    }
+    .line{
+        margin-left: 45rem;
+        margin-right: 45rem;
+    }
+    .prof ul{
+        padding-left: 0rem;
+    }
+    .right{
+    margin-right: -2rem;
+    }
+    .ser-card{
+        width: 25rem;
+        margin-left:5rem ;
+        margin-right:1rem ;
+        padding: .1rem;
+        padding-top: 2rem;
+    }
+    .work .bi{
+        font-size: 7rem;
+    }
+    .master{
+        padding-top: 15rem;
+    }
+    .w-card{
+        margin-left: 2.7rem;
+    }
+    .c-card{
+        margin-left:5rem ;
+        margin-right: 5rem;
+        width: 19rem;
+    }
+    .copyright{
+        margin-top: 2rem;
+        margin-left: 55rem;
+    }
+    .nav-link{
+        font-size: 2rem;
+        margin-top:.5rem ;
+        margin-bottom:.5rem ;
+        margin-left: 45rem;
+    }
+
+    .btn .bi {
+        margin-top: 125.5rem;
+        margin-left: 85rem;
+    }
+
+    .hero {
+        width: 100%;
+        height: 5vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 100%;
+        overflow: hidden;
+    }
+
+
+}
+@media (min-width:390px) and (max-width: 413px) {
+    html{
+        font-size: 27.4%;
+    }
+    #logo{
+        margin-right:-38rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 43rem;
+            margin-right: 43rem;
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.3rem;
+        }
+        .right{
+        margin-right: -2rem;
+        }
+        .ser-card{
+            width: 23rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: -1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 80rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 17.9rem;
+        }
+
+
+    .hero {
+        width: 100%;
+        height: 35vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 135%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+       
+}
+@media (min-width:414px) and (max-width: 499px) {
+    html{
+        font-size: 27.4%;
+    }
+    #logo{
+        margin-right:-38rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -2rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }
+        
+    .hero {
+        width: 100%;
+        height: 35vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 105%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:500px) and (max-width:525px) {
+
+    html{
+        font-size: 32%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 35vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 110%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 3rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:526px) and (max-width:555px) {
+
+    html{
+        font-size: 32%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 35vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 110%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 48rem;
+            margin-right: 48rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:556px) and (max-width:575px) {
+
+    html{
+        font-size: 34%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 55vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 110%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 48rem;
+            margin-right: 48rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 17rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:576px) and (max-width:600px) {
+
+    html{
+        font-size: 35%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 45vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 110%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 48rem;
+            margin-right: 48rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 17.5rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:601px) and (max-width:625px) {
+
+    html{
+        font-size: 36%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 45vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 110%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 50rem;
+            margin-right: 50rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 17.5rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:626px) and (max-width:645px) {
+
+    html{
+        font-size: 38%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 45vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 50rem;
+            margin-right: 50rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 17.5rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:646px) and (max-width:655px) {
+
+    html{
+        font-size: 39%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 45vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 105%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 50rem;
+            margin-right: 50rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 17.5rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:656px) and (max-width:675px) {
+
+    html{
+        font-size: 40%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 45vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 105%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 50rem;
+            margin-right: 50rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 16.5rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:676px) and (max-width:700px) {
+
+    html{
+        font-size: 41%;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 55vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 115%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+.right p{
+    margin-top: 1rem;
+}
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 50rem;
+            margin-right: 50rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:6.8rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 4rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 16.5rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 95rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.9rem;
+        }  
+}
+@media (min-width:701px) and (max-width:725px) {
+    html{
+        font-size: 47%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.3rem;
+        }  
+
+}
+@media (min-width:726px) and (max-width:745px) {
+    html{
+        font-size: 48%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 60rem;
+        background-size: 130%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.3rem;
+        }  
+
+}
+@media (min-width:746px) and (max-width:755px) {
+    html{
+        font-size: 49%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 58rem;
+        background-size: 130%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.3rem;
+        }  
+
+}
+@media (min-width:756px) and (max-width:775px) {
+    html{
+        font-size: 51%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 130%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.3rem;
+        }  
+
+}
+@media (min-width:776px) and (max-width:800px) {
+    html{
+        font-size: 52%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 130%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 21.3rem;
+        }  
+
+}
+@media (min-width:801px) and (max-width:825px) {
+    html{
+        font-size: 52%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:826px) and (max-width:845px) {
+    html{
+        font-size: 54%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:846px) and (max-width:855px) {
+    html{
+        font-size: 54%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:856px) and (max-width:875px) {
+    html{
+        font-size: 56%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:876px) and (max-width:900px) {
+    html{
+        font-size: 57%;
+    }
+    .hero {
+        width: 100%;
+        height: 60vh;  
+        background-image: url(pictures/hero.jpg);
+        padding-top: 55rem;
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:901px) and (max-width:925px) {
+    html{
+        font-size: 58%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:926px) and (max-width:945px) {
+    html{
+        font-size: 60%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:946px) and (max-width:955px) {
+    html{
+        font-size: 61%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:956px) and (max-width:975px) {
+    html{
+        font-size: 62%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:976px) and (max-width:1000px) {
+    html{
+        font-size: 63%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1001px) and (max-width:1025px) {
+    html{
+        font-size: 65%;
+    }
+    #logo{
+        margin-right:-48rem;
+    }
+    #navbarSupportedContent  a{
+        margin-left: 4rem;
+    }
+    .navbar-brand{
+        font-size: 3.2rem;
+        margin-top:.5rem ;
+        margin-bottom:.5rem ;
+        margin-left:49rem;
+    }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+       
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1026px) and (max-width:1045px) {
+    html{
+        font-size: 66%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+     
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1046px) and (max-width:1055px) {
+    html{
+        font-size: 67%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+       
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1056px) and (max-width:1075px) {
+    html{
+        font-size: 67%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+      
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1076px) and (max-width:1100px) {
+    html{
+        font-size: 69%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        .btn .bi {
+            margin-top: 125.5rem;
+            margin-left: 85rem;
+        }
+     
+
+}
+@media (min-width:1101px) and (max-width:1125px) {
+    html{
+        font-size: 70%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+       
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1126px) and (max-width:1145px) {
+    html{
+        font-size: 71%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+       
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1146px) and (max-width:1155px) {
+    html{
+        font-size: 72%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+       
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1156px) and (max-width:1175px) {
+    html{
+        font-size: 73%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+        
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+}
+@media (min-width:1176px) and (max-width:1200px) {
+    html{
+        font-size: 74%;
+    }
+    #logo{
+        margin-right:-48rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        #navbarSupportedContent  a{
+            margin-left: 4rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-brand{
+            font-size: 3.2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left:49rem;
+        }
+        .navbar-toggler{
+            margin-right: 2rem;
+        }
+        .line{
+            margin-left: 45rem;
+            margin-right: 45rem;
+            border:.4rem solid turquoise
+        }
+        .prof ul{
+            padding-left: 0rem;
+            font-size: 1.6rem;
+        }
+        .right{
+        margin-right: -1rem;
+        }
+        .ser-card{
+            width: 24rem;
+            margin-left:4.5rem ;
+            margin-right:1rem ;
+            padding: .1rem;
+            padding-top: 2rem;
+        }
+        .work .bi{
+            font-size: 7rem;
+        }
+        .master{
+            padding-top: 15rem;
+        }
+        .w-card{
+            margin-left: 1rem;
+        }
+        .c-card{
+            margin-left:-10rem ;
+            margin-right: 12rem;
+            width: 19rem;
+        }
+        .c-box{
+            margin-top: 8rem;
+            background-color: rgba(0, 0, 0, 0.916);
+            width: 100%;
+            height: 30rem;
+            padding-left: 20rem;
+        }
+        .copyright{
+            margin-top: -10rem;
+            margin-left: 35rem;
+        }
+        .nav-link{
+            font-size: 2rem;
+            margin-top:.5rem ;
+            margin-bottom:.5rem ;
+            margin-left: 45rem;
+        } 
+      
+        .c-card-t{
+            margin-top: 3rem;
+            margin-right: 22.6rem;
+        }  
+
+    }
